@@ -38,6 +38,23 @@
             android:label="@string/title_activity_contact_add" >
         </activity>
 
+   <activity
+            android:name="com.example.latihan0001.TambahKontak"
+            android:label="@string/title_activity_tambah_contact"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        
+                <activity
+            android:name="com.example.latihan0001.MainFragmentActivity"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.latihan0001.MainActivity" />
+        </activity>
+        
         
     </application>
 
